@@ -212,7 +212,6 @@ Board.prototype.checkSpace = function(newLocation) {
     if (row >= 24 || column >= 10 || column < 0) {
       return false;
     }
-    // debugger;
     if (this.rows[row][column] !== "O") {
       if (!this.partOfCurrentPiece([row, column])) {
         return false;
@@ -237,7 +236,6 @@ Board.prototype.rotatePiece = function() {
   if (this.currentPiece.pieceType === "square") {
     return;
   } else if (this.currentPiece.pieceType === "line") {
-    debugger;
     if (this.currentPiece.spacesOccupied.includes(4)) {
       newSpacesOccupied.push(3, 6, 9, 11);
     } else {
@@ -308,7 +306,6 @@ Board.prototype.reverseRotate = function() {
   if (this.currentPiece.pieceType === "square") {
     return;
   } else if (this.currentPiece.pieceType === "line") {
-    debugger;
     if (this.currentPiece.spacesOccupied.includes(4)) {
       newSpacesOccupied.push(3, 6, 9, 11);
     } else {
