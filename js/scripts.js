@@ -563,7 +563,7 @@ Board.prototype.drawPieceCanvas = function(context, canvas) {
 
 var board = new Board();
 var audio2 = new Audio('Audio/Mo_Harp.ogg');
-var audio = new Audio('Audio/tetris.mp3');
+var audio = new Audio('Audio/Tetris.ogg');
 
 $(document).ready(function() {
   var framesPassed = 0;
