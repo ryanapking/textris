@@ -8,6 +8,8 @@
 
 Recreation of the basic Tetris game.
 
+Project can be viewed on [GitHub Pages](https://ryanapking.github.io/textris/)
+
 ## Specifications
 
 * Build basic board/ draw with canvas.
